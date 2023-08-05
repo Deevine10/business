@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 80vh;
+  /* background-image: url(./pexels-fauxels-3184418.jpg);
+  background-size: cover; */
+  background-color: burlywood;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+  padding: 50px;
+}
+
+nav {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav ul {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.edu {
+  width: 150px;
+  height: 150px;
+  margin-left: 80%;
+  position: relative;
+}
+
+.edu .imgs {
+  width: 80px;
+  height: 120px;
+}
+.edu .imggs {
+  width: 80px;
+  height: 120px;
+}
+
+.edu .imgss {
+  width: 200px;
+  height: 150px;
+}
+
+.educ {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.educ h1 {
+  padding: 10px;
+}
+
+.educ p {
+  padding: 10px;
+}
+
+.educ button {
+  height: 30px;
+  width: 70px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: orangered;
+  color: #fff;
+}
+
+.educ .btn2 {
+  background-color: burlywood;
+  color: #000;
+  border: 1px solid rgb(85, 66, 66);
+}
+
+.edu img {
+  position: relative;
+  bottom: 400px;
+}
+
+.bestt {
+  height: 70vh;
+  /* background-color: blueviolet; */
+  background-color: white;
+  padding: 50px;
+}
+
+.bestt img {
+  width: 300px;
+  height: 300px;
+  margin-top: 70px;
+}
+
+.best {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: 400px;
+  bottom: 300px;
+  line-height: 2em;
+  text-align: center;
+}
+
+.best button {
+  width: 70px;
+  height: 30px;
+  background-color: orangered;
+  color: #fff;
+  border: none;
+}
+
+.online {
+  height: 70vh;
+  background-color: cadetblue;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.img2 img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 70%;
+  bottom: 300px;
+}
+
+.academy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  right: 400px;
+  top: 20px;
+  text-align: center;
+  line-height: 2em;
+}
+
+.box h4 {
+  border: 30px solid yellow;
+  border-radius: 50px;
+}
